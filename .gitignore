@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDEs
+.vscode/
+.idea/
+
+# Local data & temp
+*.log
+examples/data/
+
+# Private research and design notes
+00-README.md
+01-research-findings.md
+02-problem-and-value.md
+03-technical-design.md
+04-api-and-cli-spec.md
+05-roadmap-and-validation.md
+0*.md
