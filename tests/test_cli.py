@@ -19,7 +19,7 @@ def test_cli_version(capsys):
     ret = main(["--version"])
     assert ret == 0
     captured = capsys.readouterr()
-    assert "stackgate 0.1.0" in captured.out
+    assert "stackgate 0.1.1" in captured.out
 
 
 def test_cli_help(capsys):

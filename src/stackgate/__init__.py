@@ -33,7 +33,7 @@ from stackgate.recorder import record_callable, record_command, write_folded
 from stackgate.sampler import Sampler, sample_callable
 from stackgate.stats import normal_ppf
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Samarth Agrawal"
 __email__ = "agrawalsamarth0206@gmail.com"
 
